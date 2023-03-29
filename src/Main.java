@@ -43,6 +43,8 @@ public class Main {
                         System.out.print("Checking Out...");
                 }
             }while (select != 4);
+        }else{
+            System.out.println("Entered wrong data, Try again!");
         }
     }
 }
